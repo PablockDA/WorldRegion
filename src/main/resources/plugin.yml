@@ -1,0 +1,9 @@
+main: me.pablockda.wr.WorldRegion
+version: 1.3
+api-version: 1.13
+name: WorldRegion
+author: PablockDA
+commands:
+  worldregion:
+    aliases: [wr]
+    description: WorldRegion main command
