@@ -23,7 +23,7 @@ public class RegionManager {
 	private static Config config = WorldRegion.instance.getConfig();
 	
 	public RegionManager() {
-		regions = new HashMap<String, WR>();
+		regions = new HashMap<>();
 		loadArenas();
 	}
 	
@@ -312,7 +312,7 @@ public class RegionManager {
 	
 	public static List<String> getRegionsInRange(Block l, int range) {
 		
-		List<String> list = new ArrayList<String>();
+		List<String> list = new ArrayList<>();
 		
 		if(!Mensajes.isNumericPositiveOnly( String.valueOf(range) )) { return list;	}
 		
@@ -350,6 +350,14 @@ public class RegionManager {
 		}
 		
 		return list;
+	}
+
+	public static double getDistanceBetween3DPoints( double aX, double aY, double aZ, double bX, double bY, double bZ) {
+		return Math.sqrt( Math.pow( ( bX - aX) , 2 ) + Math.pow( (bY - aY), 2 ) + Math.pow( (bZ - aZ), 2 ) );
+	}
+
+	public static double getDistanceBetween2DPoints( double aX, double aY, double bX, double bY) {
+		return Math.sqrt( Math.pow( ( bX - aX) , 2 ) + Math.pow( (bY - aY), 2 ) );
 	}
 	
 	
