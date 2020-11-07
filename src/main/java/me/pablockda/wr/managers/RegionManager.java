@@ -345,6 +345,7 @@ public class RegionManager {
 			    	dim3[0] >= maxZ && dim3[0] <= minZ &&
 			    	dim3[1] >= maxZ && dim3[1] <= minZ   ) {
 			    	list.add(WG.getKey());
+
 			    }
 			}
 		}
@@ -359,9 +360,6 @@ public class RegionManager {
 	public static double getDistanceBetween2DPoints( double aX, double aY, double bX, double bY) {
 		return Math.sqrt( Math.pow( ( bX - aX) , 2 ) + Math.pow( (bY - aY), 2 ) );
 	}
-	
-	
-	
 	
 	
 }
