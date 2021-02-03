@@ -31,7 +31,7 @@ Step 2. Add the dependency
 	 <dependency>
 	    <groupId>com.github.PablockDA</groupId>
 	    <artifactId>WorldRegion</artifactId>
-	    <version>e006d0eff9</version>
+	    <version>8f1906ab55</version>
 	</dependency>
   
 
