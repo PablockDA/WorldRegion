@@ -62,8 +62,8 @@ public final class WorldRegionAPI {
 		return RegionManager.getDistanceBetween3DPoints(aX, aY, aZ, bX, bY, bZ);
 	}
 
-	public static double getDistanceBetween2DPoints( double aX, double aY, double bX, double bY) {
-		return RegionManager.getDistanceBetween2DPoints(aX, aY, bX, bY);
+	public static double getDistanceBetween2DPoints( double aX, double aZ, double bX, double bZ) {
+		return RegionManager.getDistanceBetween2DPoints(aX, aZ, bX, bZ);
 	}
 	
 }

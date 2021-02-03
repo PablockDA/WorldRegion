@@ -357,8 +357,8 @@ public class RegionManager {
 		return Math.sqrt( Math.pow( ( bX - aX) , 2 ) + Math.pow( (bY - aY), 2 ) + Math.pow( (bZ - aZ), 2 ) );
 	}
 
-	public static double getDistanceBetween2DPoints( double aX, double aY, double bX, double bY) {
-		return Math.sqrt( Math.pow( ( bX - aX) , 2 ) + Math.pow( (bY - aY), 2 ) );
+	public static double getDistanceBetween2DPoints( double aX, double aZ, double bX, double bZ) {
+		return Math.sqrt( Math.pow( ( bX - aX) , 2 ) + Math.pow( (bZ - aZ), 2 ) );
 	}
 	
 	
