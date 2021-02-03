@@ -43,8 +43,8 @@ WorldRegionAPI wr = new WorldRegionAPI();
 `
 ## Why World Region API?:
 
-- This API was born from the need to use a simple Region Manager.
-- In case you want to use world guard but in a simple way, this is your choice.
+- This API was born from the need to use a simple and lightweight Region Manager.
+- In case you want to use World Guard but in a simple way, this is your choice!.
 - It also works in every version, you don't need to use different builds for every versions 
 
 
